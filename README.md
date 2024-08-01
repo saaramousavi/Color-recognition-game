@@ -1,5 +1,6 @@
 # Color-recognition-game
--[Demo project] ![Screenshot 2024-08-02 020120](https://github.com/user-attachments/assets/6bf8505a-2cdc-4310-95fa-229a66f93a6f)
+-[Demo project] https://saaramousavi.github.io/Color-recognition-game/
+![Screenshot 2024-08-02 020120](https://github.com/user-attachments/assets/6bf8505a-2cdc-4310-95fa-229a66f93a6f)
 
 - Developed by Sara Mousavi
 
