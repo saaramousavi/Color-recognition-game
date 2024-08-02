@@ -5,7 +5,7 @@ function startGame() {
     const gameBoard = document.getElementById('gameBoard');
     gameBoard.innerHTML = '';
     document.getElementById('result').textContent = '';
-
+//style color and size
     const gridSize = Math.min(Math.floor(Math.sqrt(level)) + 1, 10);
     const boxSize = Math.floor(300 / gridSize);
 
@@ -35,7 +35,7 @@ function startGame() {
         gameBoard.appendChild(box);
     }
 }
-
+// correctgame
 function correctChoice() {
     score++;
     level++;
@@ -54,7 +54,7 @@ function correctChoice() {
 function wrongChoice() {
     endGame(false);
 }
-
+//endgame
 function endGame(isWinner) {
     const gameBoard = document.getElementById('gameBoard');
     gameBoard.innerHTML = '';
@@ -65,7 +65,7 @@ function endGame(isWinner) {
     } else {
         resultElement.textContent = '😥متأسفانه شما باختید';
     }
-
+//restart
     const restartButton = document.createElement('button');
     restartButton.textContent = 'شروع مجدد بازی';
     restartButton.onclick = resetGame;
